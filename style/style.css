@@ -1,0 +1,162 @@
+/* BAGIAN INDEX PEMILIHAN METODE LOGIN. */
+
+.index-container{
+	width:400px;
+	height:200px;
+	padding:20px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -120px;
+	margin-left: -220px;
+	display: table;
+}
+
+.index-method{
+	color: white;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	background:rgb(6,37,108);
+}
+
+.index-method a:link {
+	color : white;
+}
+
+.index-method a:hover{
+	color: white;
+}
+
+.index-method a:visited{
+	color: white;
+}
+
+/* BAGIAN LOGIN DENGAN DATABASE. */
+
+@font-face {
+	font-family: product-sans;
+	src:url(product-sans.TTF);
+}
+
+*{
+	margin: 0;
+}
+
+.body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.wrap {
+	min-height: 100%;
+	position: relative;
+    background: rgb(233,233,233);
+}
+
+/*bagian header*/
+.wrap .header{
+	color:rgb(6,37,108);
+	text-align: center;
+	padding: 15pt;
+}
+
+#andiFauzy {
+	font-family: product-sans;
+	font-size:21pt;
+	margin-top: 12;
+	margin-bottom: 0;
+}
+
+#dewantara {
+	font-family: product-sans;
+	font-size: 24pt;
+	margin-top: 0;
+	margin-bottom: 12;
+}
+
+/*akhir header*/
+
+/*bagian menu*/
+.wrap .menu{
+	background: white;
+	text-align: center;
+}
+
+.wrap .menu ul{
+	padding: 0;
+	margin: 0;
+	background: white;
+	overflow: hidden;
+	list-style-type: none;
+	display: inline-block;
+}
+
+.wrap .menu ul li{
+	color: black;
+	font-family: product-sans;
+	font-weight: bold;
+	font-size: 18pt;
+	float: left;
+	padding: 10px;
+}
+
+.wrap .menu ul li a{
+	text-decoration: none;
+}
+
+
+
+a:link {
+	color : black;
+}
+
+a:visited{
+	color : black;
+}
+
+a:hover{
+	color: white;
+}
+
+.wrap .menu ul li:hover{
+	background-color: rgb(8,37,108);
+}
+
+/*akhir menu*/
+
+/* Contect */
+.content {
+	margin:10px;
+	padding:10px;
+}
+
+
+/* Footer */
+.wrap .footer{
+	position: absolute;
+	background: rgb(6,37,108);
+	width: 100%;
+	height: 200px;
+}
+
+.logo {
+	float: left;
+	display: inline-block;
+	padding:50px; 
+	color: white;
+}
+
+.contact {
+	float: right;
+	padding: 70px;
+	display: inline-block;
+}
+
+.contact p {
+	margin:0;
+	font-family: product-sans;
+	font-size: 14pt;
+	color: white;
+}
